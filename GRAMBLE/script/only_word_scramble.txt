@@ -1,0 +1,5 @@
+python3 gen_sentences_csv.py --direction en2xh --file input.txt --output variants.csv
+
+python one_make_variants.py --split devtest --out_csv variants.csv
+python two_pick_best.py --model path/to/your-babylm --best_out best.tsv
+python three_eval.py --split devtest --hyp best.tsv

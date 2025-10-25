@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.ipynb_checkpoints/
+
+# Virtual envs / local tooling
+.venv/
+venv/
+env/
+.pyenv/
+pip-wheel-metadata/
+
+# C/C++/Torch binaries & large build artefacts
+*.so
+*.dylib
+*.dll
+*.bin
+*.pt
+*.pth
+*.onnx
+
+# Training/data caches & outputs
+cache/
+datasets/
+data/
+models/
+checkpoints/
+wandb/
+runs/
+logs/
+*.log
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
